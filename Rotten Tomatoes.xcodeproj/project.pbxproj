@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225361F31ADE5343002F91F6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225361F21ADE5343002F91F6 /* MovieCell.swift */; };
 		22811DC51ADE4B89003B567A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22811DC41ADE4B89003B567A /* AppDelegate.swift */; };
 		22811DCA1ADE4B89003B567A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22811DC81ADE4B89003B567A /* Main.storyboard */; };
 		22811DCC1ADE4B89003B567A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22811DCB1ADE4B89003B567A /* Images.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225361F21ADE5343002F91F6 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		22811DBF1ADE4B89003B567A /* Rotten Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotten Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22811DC31ADE4B89003B567A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22811DC41ADE4B89003B567A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225361F11ADE5330002F91F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225361F21ADE5343002F91F6 /* MovieCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		22811DB61ADE4B89003B567A = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		22811DC11ADE4B89003B567A /* Rotten Tomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				225361F11ADE5330002F91F6 /* Views */,
 				22811DE61ADE4BBB003B567A /* View Controllers */,
 				22811DC41ADE4B89003B567A /* AppDelegate.swift */,
 				22811DC81ADE4B89003B567A /* Main.storyboard */,
@@ -222,6 +233,7 @@
 			files = (
 				22811DC51ADE4B89003B567A /* AppDelegate.swift in Sources */,
 				22811DE51ADE4BB4003B567A /* MoviesViewController.swift in Sources */,
+				225361F31ADE5343002F91F6 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +429,7 @@
 				22811DE01ADE4B89003B567A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22811DE11ADE4B89003B567A /* Build configuration list for PBXNativeTarget "Rotten TomatoesTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +438,7 @@
 				22811DE31ADE4B89003B567A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
