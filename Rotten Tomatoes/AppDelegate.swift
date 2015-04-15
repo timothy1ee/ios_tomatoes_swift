@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Rotten Tomatoes
 //
-//  Created by Timothy Lee on 4/14/15.
+//  Created by Timothy Lee on 4/15/15.
 //  Copyright (c) 2015 Timothy Lee. All rights reserved.
 //
 
